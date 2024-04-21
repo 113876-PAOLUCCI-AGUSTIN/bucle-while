@@ -30,5 +30,45 @@ public class Main {
         } while (!letraIngresada.equalsIgnoreCase(letraOculta));
         System.out.println("Genial! Adivinó la letra y esta era la: "+letraOculta );
 
+        // LEAP YEAR (AÑO BISIESTO).
+        System.out.println("Enter a year to check if it is a leap year");
+        Scanner input = new Scanner(System.in);
+        int year = input.nextInt();
+
+        while (year != 0) {
+            if((year % 4 == 0) || ((year % 400 == 0) && (year % 100 != 0))){
+                System.out.println(year + " is a leap year");
+            }
+            else {
+                System.out.println(year + " is not a leap year");
+            }
+            year = input.nextInt();
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+            // YOU HAVE TO UPDATE THE VARIABLE INSIDE THE LOOP!
+            // PREVENTING AN INFINITE LOOP
+        }        
     }
 }
